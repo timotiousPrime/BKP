@@ -1,0 +1,28 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block content %}
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+   {% include 'partials/about.html' %}
+    <!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+   {% include 'partials/services.html' %}
+    <!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+   <!-- {% include 'partials/portfolio.html' %} -->
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Journal Section ======= -->
+   {% include 'partials/blogSection.html' %}
+    <!-- End Journal Section -->
+
+    <!-- ======= Contact Section ======= -->
+   {% include 'partials/contact.html' %}
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+{% endblock content %}
